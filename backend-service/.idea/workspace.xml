@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="851c691d-160c-494e-80f0-b9499fe204ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/CommentResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/PostResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/BlogPostApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/configs/MessageSourceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/configs/OpenApiConfigs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/configs/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/configs/ThymeleafConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/controllers/AuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/controllers/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/controllers/PostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/CreateAdminDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/CreateCommentDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/CreatePostDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/CreateUserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/InviteUserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/LoginResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/ResetPasswordDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/SignInDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/UpdateCommentDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/UpdatePostDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/UpdateUserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/requests/VerifyEmailDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/responses/CustomAuthError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/responses/ErrorResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/responses/ProfileResponseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/dtos/responses/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/enumerations/EGender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/enumerations/EStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/enumerations/EUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/enumerations/ResponseType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/BadRequestAlertException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/DuplicateRecordException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/ErrorConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/ErrorDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/ExceptionTranslator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/FieldErrorVM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/InternalServerErrorException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/InvalidUUIDException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/NotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/ResourceNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/exceptions/UnAuthorizedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/models/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/models/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/models/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/repositories/ICommentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/repositories/IPostRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/repositories/IRoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/repositories/IUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/security/CurrentUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/security/CustomUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/security/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/security/JwtAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/security/JwtTokenProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/security/PasswordConstraintValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/security/UserPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/security/ValidPassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/AuthenticationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/PostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/serviceImpl/AuthenticationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/serviceImpl/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/serviceImpl/PostServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/serviceImpl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/services/serviceImpl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/ApiResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/AuthTokenWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/ExceptionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/ExpirationTokenUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/HashUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/HeaderUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/JWTAuthenticationResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/TokenUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/UserUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rw/ac/rca/qt/blog/utils/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/BlogPostApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/BlogPostApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/configs/MessageSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/configs/MessageSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/configs/OpenApiConfigs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/configs/OpenApiConfigs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/configs/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/controllers/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/controllers/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/controllers/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/controllers/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/CreateAdminDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/CreateAdminDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/CreateCommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/CreateCommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/CreatePostDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/CreatePostDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/CreateUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/CreateUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/InviteUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/InviteUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/ResetPasswordDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/ResetPasswordDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/SignInDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/SignInDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/UpdateCommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/UpdateCommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/UpdatePostDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/UpdatePostDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/UpdateUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/UpdateUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/VerifyEmailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/requests/VerifyEmailDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/CustomAuthError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/CustomAuthError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/ProfileResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/ProfileResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/dtos/responses/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/enumerations/EGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/enumerations/EGender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/enumerations/EStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/enumerations/EStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/enumerations/EUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/enumerations/EUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/enumerations/ResponseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/enumerations/ResponseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/BadRequestAlertException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/BadRequestAlertException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/CustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/DuplicateRecordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/DuplicateRecordException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/ErrorConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/ErrorConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/ErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/ErrorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/ExceptionTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/ExceptionTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/FieldErrorVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/FieldErrorVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/InternalServerErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/InternalServerErrorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/InvalidUUIDException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/InvalidUUIDException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/UnAuthorizedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/exceptions/UnAuthorizedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/models/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/models/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/models/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/models/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/repositories/ICommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/repositories/ICommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/repositories/IPostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/repositories/IPostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/repositories/IRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/repositories/IRoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/repositories/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/repositories/IUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/CurrentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/PasswordConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/PasswordConstraintValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/ValidPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/security/ValidPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/AuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/AuthenticationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/services/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/AuthTokenWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/AuthTokenWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/ExceptionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/ExceptionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/ExpirationTokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/ExpirationTokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/HashUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/HashUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/HeaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/HeaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/JWTAuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/JWTAuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/TokenUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/TokenUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/UserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/UserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rw/ac/rca/qt/blog/utils/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/invitation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/invitation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/reset-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/reset-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/verify-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/verify-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/welcome-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/welcome-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rw/ac/rca/qt/blog/GradesClassbApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rw/ac/rca/qt/blog/GradesClassbApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2kEg4QOXi68yhjCNQfpO0ZRqLvM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/divine/Documents/PROJECTS/QT-practice-test/backend-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogPostApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="backend-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="backend-service" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogPostApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rw.ac.rca.qt.blog.BlogPostApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootTemplate" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="grades-classb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rw.ac.rca.spring_boot_template.SpringBootTemplate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="851c691d-160c-494e-80f0-b9499fe204ca" name="Changes" comment="" />
+      <created>1722853959469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722853959469</updated>
+      <workItem from="1722853961002" duration="28264000" />
+      <workItem from="1722921986441" duration="848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
