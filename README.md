@@ -93,6 +93,7 @@ Copy code
 pnpm run dev
 Access the API at http://localhost:3000.
 
+access swagger on http://localhost:8000/swagger-ui/index.html#/
 
 Usage
 Register a new user using the /api/auth/register endpoint.
